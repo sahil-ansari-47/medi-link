@@ -6,6 +6,7 @@ django-debug-toolbar
 requests
 dj-rest-auth
 google-auth
+requests-oauthlib
 djangorestframework-simplejwt
 django-filter
 gunicorn
@@ -13,5 +14,4 @@ django-cors-headers
 django-allauth
 python-dotenv
 whitenoise
-pyjwt>=2.4
-
+pyjwt[crypto]>=2.4
