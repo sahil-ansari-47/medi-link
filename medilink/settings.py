@@ -84,6 +84,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'medilink.urls'
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -139,6 +140,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_FILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 MEDIA_URL  = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

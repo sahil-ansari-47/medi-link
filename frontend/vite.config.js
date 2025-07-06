@@ -10,7 +10,7 @@ export default defineConfig({
     port: 5173,
   },
   build: {
-    outDir: '../backend/staticfiles', // adjust if needed
+    outDir: '../medilink/staticfiles', // adjust if needed
     emptyOutDir: true,
   },
 })
