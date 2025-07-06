@@ -29,7 +29,9 @@ COPY . .
 
 # Build frontend
 WORKDIR /app/frontend
-RUN npm install && npm run build
+RUN npm install
+RUN npm run build
+
 
 # Go back to backend root
 WORKDIR /app
