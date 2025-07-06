@@ -51,21 +51,9 @@ INSTALLED_APPS = [
     'dj_rest_auth.registration',
 ]
 
-SOCIALACCOUNT_PROVIDERS = {
-    'google': {
-        'APP': {
-            'client_id': os.getenv("GOOGLE_CLIENT_ID"),
-            'secret': os.getenv("GOOGLE_CLIENT_SECRET"),
-        },
-        'SCOPE': [
-            'profile',
-            'email',
-        ],
-        'AUTH_PARAMS': {
-            'access_type': 'online',
-        } 
-    }
-}
+GOOGLE_CLIENT_ID=os.getenv("GOOGLE_CLIENT_ID")
+GOOGLE_CLIENT_SECRET=os.getenv("GOOGLE_CLIENT_SECRET")
+
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
