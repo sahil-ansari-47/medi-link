@@ -13,4 +13,5 @@ django-cors-headers
 django-allauth
 python-dotenv
 whitenoise
-pyjwt
+pyjwt>=2.4
+
