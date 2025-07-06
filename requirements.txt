@@ -1,0 +1,16 @@
+django
+djangorestframework
+psycopg2-binary
+pillow
+django-debug-toolbar
+requests
+dj-rest-auth
+google-auth
+djangorestframework-simplejwt
+django-filter
+gunicorn
+django-cors-headers
+django-allauth
+python-dotenv
+whitenoise
+pyjwt>=2.4,<3
